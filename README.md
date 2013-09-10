@@ -1,4 +1,4 @@
 angular-treeview
 ================
 
-Angular treeview
+work in progress

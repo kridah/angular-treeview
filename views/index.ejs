@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="tree">
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+
+    <div ng-controller="Controller">
+
+        <div ng-repeat="t in tree" tree="t" node-click="onClick(data)">
+
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.2/angular.min.js"></script>
+    <script src="/javascripts/app.js"></script>
+    <script src="/javascripts/Controller.js"></script>
+
+  </body>
+</html>
